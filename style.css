@@ -1,0 +1,76 @@
+@font-face {
+	font-family : ‘내맘대로 폰트 이름 정하기’;
+	src: local (‘Nanumsquare’), url (nanumsquare.ttf);	
+  
+}
+p, h1, h4{ transform: rotate(-0.05deg);} 
+
+body {
+    font-family: "Nanum Githic "
+}
+
+.bg {
+    background-image: url(image.jpg);
+    background-position: center;
+    background-size: 100%;
+    color: #fff;
+    height: 400px;
+}
+
+.center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+
+.center h5,
+.center p {
+    text-align: center;
+}
+
+.form {}
+
+
+
+.title {
+    color: #fff;
+    text-align: center;
+
+}
+
+.form_wrap {
+    background-color: #333;
+    padding: 50px;
+    color: #fff;
+
+}
+
+.btn {
+    background-color: coral;
+
+}
+.y-box {
+    background-color: bisque;
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+}
+
+.position {
+    position: relative;
+}
+
+.y-box:hover{opacity: 0.5;  transition-duration:1s; }
+
+.y-box p{
+    color:white;
+    position:relative;
+}
+
+
